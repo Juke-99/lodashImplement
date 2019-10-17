@@ -34,6 +34,8 @@ console.log("")
  * ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
  */
 
+ var isArray = Array.isArray
+
 /**
  * lodash chunk method
  * @param {Array} array 
@@ -81,4 +83,8 @@ function myCompact(array) {
   }
 
   return result
+}
+
+function myConcat(srrsy, ...vslues) {
+  
 }
